@@ -9,6 +9,7 @@ app.get('/', function(req, res){
 
 app.get('/start', function(req, res){
     res.send('start page!');
+    
 });
 
 server.listen(3000, '127.0.0.1', function(){
